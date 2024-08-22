@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Questrial&display=swap');
+
+questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* columnas */
+
+  figcaption {
+        font-size: .6rem;
+  }
+  p, li { 
+       line-height: 1.6;
+  }
+  .columnas {
+        columns: 3 400px;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .clip {
+    clip-path: circle(50% at 50% 50%);
+  }
