@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="borde head">
+            <p> Header</p>
+        </header>
+    <main>
+        <h1> Music</h1>
+        <p> La canción 'Cinnamon Girl' de Lana Del Rey es una exploración íntima de la vulnerabilidad y el anhelo de un amor que no dañe. Lana Del Rey, conocida por su estilo melancólico y su estética reminiscente de la vieja escuela de Hollywood, utiliza en esta canción metáforas y simbolismo para expresar la complejidad de las relaciones amorosas y la lucha por encontrar una conexión auténtica.
+        En 'Cinnamon Girl', Lana Del Rey juega con la imagen de la canela en los dientes como una metáfora de un beso que deja una impresión duradera, sugiriendo una relación intensa y posiblemente tóxica. Las referencias a las píldoras de colores violeta, azul, verde y rojo pueden interpretarse como una manera de mantener la distancia emocional o como una lucha contra los problemas de salud mental. La repetición de estos colores a lo largo de la canción enfatiza la barrera que el otro intenta establecer, pero que la narradora siempre logra superar.</p>
+            <div id="my-div"></div>
+    </main>
+    <aside class="borde lado">
+        <p>Aside.</p>
+    </aside>
+    <footer class="borde pie">
+        <p>Footer.</p>
+    </footer>
+ </div>
+ <script src="js/vivus.js"></script>
+ <script>
+    new Vivus('my-div', {duration: 200, type: 'oneByOne', file: 'img/CG.svg'});
+ </script>
+ <script src="https://unpkg.com/scrollreveal"></script>
+ <script>
+    scrollReveal().reveal('.head', {delay: 250, easign: 'ease-in'})
+    scrollReveal().reveal('.main', {delay: 500, scale: 0.80})
+    scrollReveal().reveal('.lado', {delay: 800, rotate:{x: 20, z:20},})
+    scrollReveal().reveal('.pie', {delay: 1000, distance: '150', origin:'bottom'});
+    
+ </script>
+</body>
+</html>
